@@ -1,0 +1,19 @@
+{
+    "name": "belajarphp/belajar-membuat-library",
+    "description": "Belajar membuat library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Muhammad Ferly Ogianta",
+            "email": "mfogianta@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProgrammerHandal\\Belajar\\": "src/"
+        }
+    }
+}
